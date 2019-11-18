@@ -1,0 +1,80 @@
+& {
+    .nav__menu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        position: absolute;
+        margin-top: -20px;
+        right: 27px;
+        top: 75%;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 27px;
+        span{
+          display: block;
+          height: 3px;
+          width: 100%;
+          background-color: rgba(51, 51, 51, 1);
+          margin-bottom: 6px;
+          transition: 0.5s;
+        }
+    }
+    .nav__menu .buy__btn{
+        display: block;
+    }
+    .title{
+        font-size: 48px;
+    }
+    .features__content-img h3{
+        padding-top: 60px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 40px;
+    }
+    .user__carusel{
+        margin-top: 520px;
+    }
+    .admin__content__botton{
+        display: block;
+    }
+    .admin__content__botton p{
+        margin-bottom: 15px;
+    }
+    .title__people{
+        line-height: 60px;
+    }
+    .people__item__text{
+        padding-top: 15px;
+    }
+    .people__item{
+        margin: 0 auto;
+        padding-bottom: 60px;
+    }
+    .pricing_title{
+        padding: 0;
+    }
+    .pricing__cards{
+        display: block;
+        margin: 0 auto;
+    }
+    .pricing__info{
+        margin-top: 35px;
+    }
+    .subscripe__search{
+        display: inline-flex;
+    }
+    .pricing__item{
+        margin-top: 25px;
+    }
+    .navigation{
+        margin-top: 50px;
+        padding-bottom: 10px;
+    }
+    .addres{
+        margin-top: 25px;
+    }
+    .info{
+        margin-top: 35px;
+    }
+}
